@@ -98,6 +98,7 @@ color: var(--black_text);
   cursor: pointer;
   font-size: 1.5rem;
   display: none;
+  font-size: 28px;
 }
 
 .open-menu {
@@ -551,8 +552,8 @@ button {
         background-color:var(--white_text);
         backdrop-filter: blur(10px);
     }
-    .machine_learning, .tech_stack, .projects, .pop_up_sec, .blog{
-      padding: 40px 15px;
+    .intro, .machine_learning, .tech_stack, .projects, .pop_up_sec, .blog, .contact_sec{
+      padding: 40px 10px;
     }
     img.mobile_logo {
         width: 210px;
@@ -561,9 +562,7 @@ button {
       width: 12%;
       height: 50%;
     }
-    .navbar ul li a{
-        margin-left: 0px;
-    }
+
     .social_icons{
         padding-bottom: 35%;
     }
